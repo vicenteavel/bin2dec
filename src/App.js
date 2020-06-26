@@ -43,7 +43,6 @@ function App() {
 
       <input 
         type="text"
-        maxLength='8'
         value={binary}
         onChange={e => handleTyping(e.target.value)}
         onKeyPress={e => bin2Dec(e)}
